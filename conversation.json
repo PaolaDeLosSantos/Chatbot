@@ -1,0 +1,63 @@
+{"conversation": [
+    {"tag": "greeting",
+        "patterns": ["Hola", "Necesito ayuda", "Tengo una duda", "Buen dia", "Como esta?", "Que hace?"],
+        "responses": ["Hola cliente", "Hola! Digame...", "En que puedo ayudarte?", "Buen dia, como esta?"],
+        "context_set": ""
+    },
+    {"tag": "gmood",
+        "patterns": ["Bien", "Excelente", "Mas o menos"],
+        "responses": ["Me alegro, que necesita?", "Perfecto, como puedo ayudarlo?", "Genial, digame..."],
+        "context_set": ""
+    },
+    {"tag": "bmood",
+        "patterns": ["Mal", "Enfermo", "Triste", "Cansado", "Enojado", "Aburrido"],
+        "responses": ["Lamento escuchar eso", "Lo siento mucho", "Ojala mejore!"],
+        "context_set": ""
+    },
+    {"tag": "goodbye",
+        "patterns": ["Hasta luego", "Adios", "Nos vemos"],
+        "responses": ["Que tenga buen dia", "Fue un placer", "Estamos para servirle"],
+        "context_set": ""
+    },
+    {"tag": "schedule",
+        "patterns": ["Horario", "A que hora abren?", "En que horario hay servicio?", "Servicio a todas horas?"],
+        "responses": ["08:00 am - 18:00 pm", "Estamos desponibles de 8 am a 6 pm", "Abierto de lunes a viernes de 08:00 am a 18:00 pm"],
+        "context_set": ""
+    },
+    {"tag": "weekend",
+        "patterns": ["Abren los sabados?", "Fin de semana", "Atienden los domingos?", "En que horario atienden los sabados?"],
+        "responses": ["Por el momento solo hay servicio entre semana", "Solo dias laborales", "No atendemos fines de semana"],
+        "context_set": ""
+    },
+    {"tag": "measures",
+        "patterns": ["Que medidas de tuberia vende", "Cuales son las medidas de tuberia que vende", "De que tamaño es la tuberia que vende"],
+        "responses": ["1, 1/2, 2, 2 1/2, 3, 4, 6 y 8 pulgadas", "Tenemos las medidas: 1, 1/2, 2, 2 1/2, 3, 4, 6 y 8 pulgadas"],
+        "context_set": ""
+    },
+    {"tag": "tubtype",
+        "patterns": ["Cual es el tipo de tuberia hidraulica que vende", "Que tipo de tuberia hidraulica vende", "Vende tuberia hidraulica"],
+        "responses": ["Contamos con tubo PVC hidraulico RD 26, C-40 y C-80", "Tenemos tubo PVC hidraulico RD 26, C-40 y C-80"],
+        "context_set": ""
+    },
+    {"tag": "shipment",
+        "patterns": ["El precio del tubo incluye gastos de envio", "El envio es gratis", "Cuanto cuesta el envio"],
+        "responses": ["El envio es gratis segun la cantidad de piezas que se compro", "El envio es completamente gratis"],
+        "context_set": ""
+    },
+    {"tag": "services",
+        "patterns": ["Que otro tipo de servicios ofrece", "Que servicios ofrece", "Cuales son los servicios que ofrece"],
+        "responses": ["Ofrecemos asesoria tecnica profesional en la instalacion de sistemas hidraulicos y sanitarios", "SHYSA ofrece asesoria tecnica profesional en la instalacion de sistemas hidraulicos y sanitarios"],
+        "context_set": ""
+    },
+    {"tag": "connections",
+        "patterns": ["Cuales son las conexiones hidraulicas que vende", "Que tipo de conexiones hidraulicas tiene", "Cuenta con conexiones hidraulicas"],
+        "responses": ["Contamos con: T, codos, reducciones capana, bridas, reducciones bushing y tambien elaboramos piezas especiales, todo esto en las medidas de 1, 1 1/2, 2, 2 1/2, 3, 4, 6 y 8 pulgadas", "Ofrecemos: T, codos, reducciones capana, bridas, reducciones bushing, y tambien elaboramos piezas especiales, todo esto en las medidas de 1, 1 1/2, 2, 2 1/2, 3, 4, 6 y 8 pulgadas"],
+        "context_set": ""
+    },
+    {"tag": "installation",
+        "patterns": ["Cuentan con servicio de instalacion para bombas y accesorios", "Hacen la instalacion de bombas y accesorios"],
+        "responses": ["Si, para pozos profundos de agua potable", "Por supuesto", "Claro, nosotros nos encargamos"],
+        "context_set": ""
+    }
+]
+}
